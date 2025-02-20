@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Шапка сайта</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="logo">
+				<div class="menu-icon">
+					<svg
+						width="30"
+						height="30"
+						viewBox="0 0 24 24"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+						stroke="black"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<!-- Верхняя линия -->
+						<line x1="4" y1="6" x2="20" y2="6" />
+
+						<!-- Средняя линия (короче) -->
+						<line
+							x1="8"
+							y1="12"
+							x2="16"
+							y2="12"
+							transform="translate(-3.8,0)"
+						/>
+
+						<!-- Нижняя линия -->
+						<line x1="4" y1="18" x2="20" y2="18" />
+					</svg>
+				</div>
+				<img src="logo.png" alt="Логотип" />
+			</div>
+
+			<nav class="nav">
+				<a href="#"
+					><span>
+						<svg
+							width="26"
+							height="26"
+							viewBox="0 0 24 24"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							stroke="black"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<!-- Форма щита -->
+							<path
+								d="M12 2L3 6V12C3 17 7 21 12 22C17 21 21 17 21 12V6L12 2Z"
+							/>
+
+							<!-- Крест в центре -->
+							<line x1="12" y1="9" x2="12" y2="15" />
+							<line x1="9" y1="12" x2="15" y2="12" />
+						</svg> </span
+					>Seu time</a
+				>
+				<a href="#"
+					><span
+						><svg
+							width="30"
+							height="30"
+							viewBox="0 0 24 24"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							stroke="black"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<!-- Полумесяц -->
+							<g transform=" scale(1.2, 1.2) translate(-4, 0)">
+								<path
+									d="M21 12.79A9 9 0 0111.21 3 7 7 0 1019 14.79 8.93 8.93 0 0121 12.79Z"
+								/>
+
+								<!-- Маленькая звезда -->
+								<!-- <path d="M17 5L18 6L19 5L18 4L17 5Z" /> -->
+								<path
+									d="M16 3L17 5L19 6L17 7L16 9L15 7L13 6L15 5L16 3Z"
+									transform="translate(10, 5) scale(0.5, 0.5)"
+								/>
+
+								<!-- Большая звезда -->
+								<path
+									d="M16 3L17 5L19 6L17 7L16 9L15 7L13 6L15 5L16 3Z"
+									transform="translate(7, 2) scale(0.5, 0.5)"
+								/>
+							</g>
+						</svg> </span
+					>Seu signo</a
+				>
+				<a href="#">Jogos</a>
+				<span class="dollar">Dólar <span class="up">↑ 5,726</span></span>
+			</nav>
+
+			<div class="user-actions">
+				<a href="#" class="login"
+					><i
+						><svg
+							width="25"
+							height="25"
+							viewBox="0 0 24 24"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							stroke="black"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<!-- Голова -->
+							<circle cx="12" cy="8" r="4" />
+
+							<!-- Тело -->
+							<path d="M4 20C4 16 8 14 12 14C16 14 20 16 20 20" />
+						</svg>
+					</i>
+					<span class="hide-mobile">Entre</span></a
+				>
+				<a href="#" class="subscribe"
+					>Assine <span class="hide-mobile">UOL</span></a
+				>
+			</div>
+		</header>
+		<div class="sidebar" id="sidebar">
+			<div class="sidebar-header">
+				<!-- Кнопка закрытия -->
+				<button class="close-btn" id="closeMenu">
+					<i class="fas fa-times"></i>
+				</button>
+				<!-- Логотип -->
+				<img src="logo.png" alt="Логотип" class="logo" />
+			</div>
+
+			<!-- 🔹 Навигация -->
+			<nav class="sidebar-nav">
+				<a href="#">Home UOL</a>
+				<a href="#">Produtos <span>&rsaquo;</span></a>
+				<a href="#">Flash</a>
+				<a href="#">Notícias <span>&rsaquo;</span></a>
+				<a href="#">Política <span>&rsaquo;</span></a>
+				<a href="#">Carros <span>&rsaquo;</span></a>
+				<a href="#">Economia</a>
+				<a href="#">Folha</a>
+				<a href="#">Esporte</a>
+
+				<!-- 🔹 Логотипы брендов -->
+				<div class="sidebar-logos">
+					<img src="splash.png" alt="Splash" />
+					<img src="universa.png" alt="Universa" />
+					<img src="vivabem.png" alt="VivaBem" />
+					<img src="tilt.png" alt="Tilt" />
+				</div>
+			</nav>
+		</div>
+		<main class="container">
+			<div class="title-content">
+				<h1 class="title">Mbappé marca, mas França só empata...</h1>
+			</div>
+			<div class="content">
+				<div class="content-img">
+					<img
+						src="./assets/img/mbappe-da-franca-em-jogo-contra-a-polonia-pela-eurocopa-2024-1719334294093_v2_450x450.jpg.webp"
+						alt=""
+					/>
+				</div>
+				<div class="content-text">
+					<p>
+						Na volta de Mbappé, a França apenas empatou em 1 a 1 com a Polônia e
+						deixou escapar a liderança do Grupo D da Eurocopa. O resultado nesta
+						terça-feira (25), somado à vitória da Áustria sobre a Holanda,
+						derrubou os franceses para a segunda colocação… - Veja mais em
+					</p>
+					<form action="#" class="content-form">
+						<p>Форма обратной связи</p>
+						<input type="text" name="firtname" placeholder="Ваше Имя" />
+						<input type="text" name="lastname" placeholder="Ваше Фамилия" />
+						<input type="email" name="email" placeholder="Ваша Почта" />
+						<input type="tel" name="tel" placeholder="Ваш Телефон" />
+						<input type="submit" name="submit" value="отправить" />
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<!-- 🔹 Секция с логотипами -->
+			<!-- <div class="footer-logos">
+				<img src="./assets/img/" alt="Splash" />
+				<img src="./assets/img/2.png" alt="Universa" />
+				<img src="./assets/img/3.png" alt="VivaBem" />
+				<img src="./assets/img/4.png" alt="Ecoa" />
+				<img src="./assets/img/5.png" alt="Nossa" />
+				<img src="./assets/img/6.png" alt="Tilt" />
+				<img src="./assets/img/7.png" alt="Tab" />
+				<img src="./assets/img/8.png" alt="Canal UOL" />
+				<img src="./assets/img/9.png" alt="Guia de Compras" />
+			</div> -->
+
+			<!-- 🔹 Основные ссылки -->
+			<div class="footer-links">
+				<div>
+					<h4>Sobre o UOL</h4>
+					<a href="#">Conheça nossa história</a>
+					<a href="#">Denuncie</a>
+					<a href="#">Fale conosco</a>
+					<a href="#">Imprensa</a>
+					<a href="#">SAC</a>
+					<a href="#">Segurança e privacidade</a>
+					<a href="#">Termos de Uso</a>
+					<a href="#">Aviso de Direitos autorais</a>
+					<a href="#">Carreiras</a>
+				</div>
+				<div>
+					<h4>Para Você</h4>
+					<a href="#">PagBank</a>
+					<a href="#">Assine UOL</a>
+					<a href="#">Tenha um email @uol</a>
+					<a href="#">Bate-Papo UOL</a>
+					<a href="#">UOL Antivírus</a>
+					<a href="#">UOL Play</a>
+					<a href="#">UOL Leia+</a>
+					<a href="#">Paulistão 2025</a>
+				</div>
+				<div>
+					<h4>Para seu negócio</h4>
+					<a href="#">Anuncie no UOL</a>
+					<a href="#">Cloud Computing</a>
+					<a href="#">Conecte</a>
+					<a href="#">Crie seu blog</a>
+					<a href="#">Crie seu site</a>
+					<a href="#">Venda sem maquininha</a>
+				</div>
+				<div>
+					<h4>Aplicativos</h4>
+					<a href="#">UOL Notícias</a>
+					<a href="#">Placar UOL</a>
+					<a href="#">VivaBem</a>
+					<a href="#">Splash</a>
+					<a href="#">Universa</a>
+					<a href="#">Nossa</a>
+					<a href="#">UOL Cotações</a>
+				</div>
+			</div>
+
+			<!-- 🔹 Нижний блок -->
+			<div class="footer-bottom">
+				<div class="footer-bottom-container">
+					<div class="subscribe">
+						<h4>Assine UOL</h4>
+						<p>
+							Assine o UOL e tenha acesso ilimitado a notícias, vídeos e muito
+							mais.
+						</p>
+					</div>
+
+					<div class="contacts">
+						<h4>Telefone</h4>
+						<p><strong>4003-6118</strong> Capitais</p>
+						<p><strong>0800 703 300</strong> Demais localidades</p>
+					</div>
+				</div>
+				<div class="apps">
+					<h4>Baixe nossos apps</h4>
+					<!-- 🔹 Вставить изображения кнопок App Store и Google Play -->
+					<img src="./assets/img/store.png" alt="App Store" />
+
+					<img src="./assets/img/play.png" alt="Google Play" />
+				</div>
+			</div>
+		</footer>
+		<script src="./script.js"></script>
+	</body>
+</html>
